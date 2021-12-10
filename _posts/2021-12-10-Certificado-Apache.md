@@ -89,7 +89,7 @@ Ponemos la URL https://www.midominioseguro.com y nos sacará el certificado.
 
 
 
+![www.midominioseguro](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/www.midominioseguro.png)
 
 
-![www.midominioseguro](/ciber/Documentos/Repos/daniluca00.github.io/assets/img/www.midominioseguro.png)
 
