@@ -54,9 +54,7 @@ Modificaremos este fichero con nuestras rutas
 
 
 
-![default_ssl](/ciber/Documentos/Repos/daniluca00.github.io/assets/img/default_ssl.png)
-
-
+![default_ssl](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/default_ssl.png)
 
 
 
@@ -66,11 +64,7 @@ Modificaremos este fichero con nuestras rutas
 
 Modificaremos el fichero /etc/hosts para añadir la URL del ssl.
 
-
-
-![hosts_ssl](/ciber/Documentos/Repos/daniluca00.github.io/assets/img/hosts_ssl.png)
-
-
+![hosts_ssl](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/hosts_ssl.png)
 
 ## Paso 5
 
