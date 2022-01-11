@@ -1,5 +1,5 @@
 ---
-typora-copy-images-to: ../assets/img/DIRECTORIO
+typora-copy-images-to: ../assets/img
 typora-root-url: ../
 layout: post
 categories: 
