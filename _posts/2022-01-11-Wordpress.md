@@ -64,4 +64,4 @@ Este comando ```docker-compose up -d``` lo que hace es extraer las Imagenes de D
 
 Por ultimo para comprobar el funcionamiento iremos a http://localhost:8000 y nos abrirá nuestro docker de Wordpress.
 
-![wordpress_instalación](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/wordpress_instalación.png)
+![wordpress_instalación](/assets/img/wordpress_instalación.png)

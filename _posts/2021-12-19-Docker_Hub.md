@@ -53,10 +53,10 @@ docker push new-repo:tagname
 
 
 
-![2](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/2.png)
+![2](/assets/img/2.png)
 
 Para comprobar que se ha subido correctamente vamos a la página de Docker Hub y comprobamos que se ha subido.
 
 
 
-![3](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/3.png)
+![3](/assets/img/3.png)
