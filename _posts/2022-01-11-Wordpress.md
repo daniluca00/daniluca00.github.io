@@ -58,10 +58,10 @@ volumes:
 
 Una vez tengamos montado nuestro proyecto tendremos ejecutar en el directorio :
 
-![docker-compose up -d](/dluca/Imágenes/docker-compose up -d.png)
+![docker-compose up -d](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/docker-compose up -d.png)
 
 Este comando ```docker-compose up -d``` lo que hace es extraer las Imagenes de Docker necesarias e inicia los contenedores de Wordpress.
 
 Por ultimo para comprobar el funcionamiento iremos a http://localhost:8000 y nos abrirá nuestro docker de Wordpress.
 
-![wordpress_instalación](/dluca/Imágenes/wordpress_instalación.png)
+![wordpress_instalación](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/wordpress_instalación.png)
