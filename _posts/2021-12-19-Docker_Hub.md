@@ -39,7 +39,7 @@ En nuestro caso lo harémos con nuestra imagen de la practica anterior "chapter2
 
 
 
-![1](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/1.png)
+![1](/assets/img/1.png)
 
 
 
