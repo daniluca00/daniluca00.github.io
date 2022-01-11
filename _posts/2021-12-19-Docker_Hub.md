@@ -37,7 +37,11 @@ docker tag local-image:tagname new-repo:tagname
 
 En nuestro caso lo harémos con nuestra imagen de la practica anterior "chapter2".
 
-![1](/home/dluca/Imágenes/1.png)
+
+
+![1](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/1.png)
+
+
 
 Con este comango lo que hacemos es como un commit de nuestra imagen.
 
@@ -47,12 +51,12 @@ Luego ejecutamos:
 docker push new-repo:tagname
 ```
 
-![2](/home/dluca/Imágenes/2.png)
 
 
+![2](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/2.png)
 
 Para comprobar que se ha subido correctamente vamos a la página de Docker Hub y comprobamos que se ha subido.
 
 
 
-![3](/home/dluca/Imágenes/3.png)
+![3](/home/ciber/Documentos/Repos/daniluca00.github.io/assets/img/3.png)
