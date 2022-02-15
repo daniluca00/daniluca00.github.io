@@ -103,7 +103,7 @@ Vamos a crear un proyecto de ejemplo que implemente `commit pipeline`
 
 > Este ejemplo es para un proyecto que usa Git, Java, Gradle y Spring Boot, pero lo mismo aplica para otras tecnologías
 
-### 
+
 
 ### Checkout
 
@@ -146,11 +146,79 @@ Vamos a crear un proyecto simple de java usando `gradle` como framework de const
 
 > Spring Boot es un framewrok de Java que simplifica la creación de  aplicaciones empresariales. Gradle es un sistema de automatización de  compilación que se basa en los conceptos de Apache Maven.
 
-
-
 > **GIT**
 >
 > Clonamos el repositorio en local y movemos todos los archivos dentro de la carpeta del mismo con **cuidado** de seleccionar también los archivos **ocultos**
+
+
+
+Nos quedaria algo así:
+
+![jenkins_calculator](/assets/img/jenkins_calculator.png)
+
+En el archivo ```build.gradle``` tendremos que modificar la línea:
+
+```
+id 'org.springframework.boot' version '2.6.3'
+```
+
+Cambiamos el 3 por un 2.
+
+
+
+Una vez todo configurado tendremos que ejecutar :
+
+```bash
+./gradlew compileJava
+```
+
+![jenkins_calculator2](/assets/img/jenkins_calculator2.png)
+
+
+
+#### Creación de la etapa de compilación
+
+Añadiendo esta esto a nuestra pipeline crearemos una nueva etapa dentro de nuestro proyecto la etapa de compilar.
+
+![jenkins_calculator4](/assets/img/jenkins_calculator4.png)
+
+
+
+Así se vería en el registrar .
+
+
+
+![jenkins_10](/assets/img/jenkins_10.png)
+
+### Test unitario (unit test)
+
+Por ultimo agregaremos la ultima etapa que es la etapa de testeo.
+
+Nuestra primera version de la calculadora puede sumar dos numeros pero tendremos que agregar la lógica empresarial como una clase en nuestro archivo :
+
+`src/main/java/com/victorponz/calculator/Calculator.java`
+
+
+
+![jenkins_calculator5](/assets/img/jenkins_calculator5.png)
+
+ Despues para poder ejecutar  la lógica empresarial, tambien debemos agregar el controlador de servicio web en un archivo separado.
+
+
+
+![jenkins_calculator6](/assets/img/jenkins_calculator6.png)
+
+Para poner en marcha el proyecto.
+
+
+
+![jenkins_calculator7](/assets/img/jenkins_calculator7.png)
+
+# Resultado
+
+Una vez ejecutado el comando para el poner el marcha el proyecto abriremos el http://localhost:8080/sum?a=1&b=2
+
+![jenkins_calculator8](/assets/img/jenkins_calculator8.png)
 
 
 
